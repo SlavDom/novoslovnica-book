@@ -1,2 +1,0 @@
-\contentsline {chapter}{\numberline {1}Phonology}{1}
-\contentsline {section}{\numberline {1.1}Vowels}{1}
