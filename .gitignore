@@ -4,3 +4,4 @@
 *.gz
 *.toc
 content/*.aux
+*.sty
