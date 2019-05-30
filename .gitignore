@@ -5,3 +5,5 @@
 *.toc
 content/*.aux
 *.sty
+*.fls
+*.fdb_latexmk
