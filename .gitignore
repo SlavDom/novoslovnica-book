@@ -8,3 +8,6 @@ content/*.aux
 *.fls
 *.fdb_latexmk
 *.dvi
+*.bbl
+*.blg
+
