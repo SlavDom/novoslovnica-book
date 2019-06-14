@@ -1,18 +1,25 @@
 \documentclass[12pt]{book}
 \usepackage[a5paper]{geometry}
 
+% Input characters
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tipa}
+
+% Tables
 \usepackage{longtable}
 \usepackage{multicol}
+\usepackage{multirow}
+
 \usepackage{url}
-\usepackage[T1]{fontenc}
-% \usepackage[russian]{babel}
-\usepackage{tipa}
-% \usepackage[german]{babel}
 \usepackage{graphicx}
 
 \setlength{\parindent}{1em}
-%\setlength{\parskip}{1em}
+
+% Where input should look for
+\makeatletter 
+\def\input@path{{../}} 
+\makeatother
 
 \DeclareUnicodeCharacter{0166}{\barredT}
 \DeclareUnicodeCharacter{0167}{\barredt}
