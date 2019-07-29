@@ -10,4 +10,11 @@ content/*.aux
 *.dvi
 *.bbl
 *.blg
-
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.idx
+*.ilg
+*.ind
+*.ist

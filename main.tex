@@ -16,6 +16,8 @@
 
 \usepackage{url}
 \usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage{glossaries}
 
 \setlength{\parindent}{1em}
 
@@ -23,6 +25,11 @@
 \makeatletter 
 \def\input@path{{../}} 
 \makeatother
+
+\makeindex
+% CMD: makeindex main.idx
+\makeglossaries
+% CMD: makeglossaries main
 
 \DeclareUnicodeCharacter{0166}{\barredT}
 \DeclareUnicodeCharacter{0167}{\barredt}
@@ -51,6 +58,7 @@
 \include{./content/foreword}
 \tableofcontents
 \mainmatter
+\printglossary
 \include{./content/background}
 \include{./content/chapter01}
 \include{./content/chapter02}
@@ -59,10 +67,12 @@
 \include{./content/chapter05}
 \include{./content/chapter06}
 \include{./content/appendix}
+
+\backmatter
 \bibliographystyle{ieeetr}
 \bibliography{biblio}
-
 \addcontentsline{toc}{chapter}{Bibliography}
+\printindex
 
 % SOURCES
 
@@ -73,7 +83,6 @@
 % А.А. Кривицкий, А.Е. Михневич, А.И. Подлужный Белорусский язык. Для говорящих по-русски - Минск, Выш. шк., 2008. - 383 с.
 % Palmer, F. R., Mood and Modality, Cambridge Univ. Press, 1986 (second edition 2001).
 
-\backmatter
 % bibliography, glossary and index would go here.
 
 \end{document}
