@@ -3,8 +3,9 @@
 
 % Input characters
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage[X2, T1, T2A]{fontenc}
 \usepackage{tipa}
+\usepackage[english]{babel}
 
 % Tables
 \usepackage{longtable}
@@ -32,6 +33,8 @@
 \makeglossaries
 % CMD: makeglossaries main
 
+\DeclareTextSymbolDefault{\CYRYAT}{X2}
+\DeclareTextSymbolDefault{\cyryat}{X2}
 \DeclareUnicodeCharacter{0166}{\barredT}
 \DeclareUnicodeCharacter{0167}{\barredt}
 
